@@ -3,6 +3,7 @@
 ## Overview
 
 GitHub Profile Viewer is a simple web application that allows users to input a GitHub username and view that user's GitHub profile information. This project provides an opportunity to gain hands-on experience by writing HTML, CSS, jQuery, and making API requests to fetch data from GitHub's API.
+[Live Demo](https://your-demo-link-here.com)
 
 ## Features
 
