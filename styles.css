@@ -1,6 +1,7 @@
 body {
     font-family: 'Martian Mono', monospace;
     background: rgb(244,239,252);
+    text-align: center;
 }
 
 header {
@@ -16,6 +17,7 @@ h1{
 h3, h4, p {
     color: rgb(255,255,255);
 }
+
 article {
     max-width: 640px;
     max-height: fit-content;
@@ -26,6 +28,31 @@ article {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0turn) scale(1);
+      }
+      25% {
+        transform: rotate(1turn) scale(1);
+      }
+      50% {
+        transform: rotate(1turn) scale(1.5);
+      }
+      75% {
+        transform: rotate(0turn) scale(1.5);
+      }
+      100% {
+        transform: rotate(0turn) scale(1);
+      }
+}
+#github-img{
+    animation: spin 5000ms;
+    animation-iteration-count: infinite;
+    width: 150px;
+    height: 150px;
+    margin-top: 150px;
 }
 #github-link{
     text-decoration: none;

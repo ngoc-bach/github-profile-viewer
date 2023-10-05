@@ -2,6 +2,7 @@ $(document).ready(function () {
   $("article").hide();
 
   function handleSearch() {
+    $("#github-img").hide();
     $("article").fadeIn();
     let username = $("input").val();
     let URL = `https://api.github.com/users/${username}`;
