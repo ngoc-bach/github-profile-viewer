@@ -5,6 +5,10 @@
 GitHub Profile Viewer is a simple web application that allows users to input a GitHub username and view that user's GitHub profile information. This project provides an opportunity to gain hands-on experience by writing HTML, CSS, jQuery, and making API requests to fetch data from GitHub's API.
 [Live Demo](https://ngoc-bach.github.io/github-profile-viewer/)
 
+
+https://github.com/ngoc-bach/github-profile-viewer/assets/87818976/6d5fc9d8-389d-45df-b073-ef6b01d39d89
+
+
 ## Features
 
 - **User Input**: Users can input any GitHub username in the provided input field.
